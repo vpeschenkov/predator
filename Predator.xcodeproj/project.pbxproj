@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		356E4FB422835C63002FF647 /* PredatorClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E4FB322835C63002FF647 /* PredatorClock.swift */; };
 		35854B5C228746BC00356369 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35854B5B228746BC00356369 /* Preferences.swift */; };
-		35854B5F2287512300356369 /* PredatorPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35854B5E2287512300356369 /* PredatorPreviewView.swift */; };
+		35854B5F2287512300356369 /* PredatorPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35854B5E2287512300356369 /* PredatorPreview.swift */; };
 		358C9FCB228DF76C00574B1B /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 358C9FC9228DF76C00574B1B /* thumbnail.png */; };
 		358C9FCC228DF76C00574B1B /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 358C9FCA228DF76C00574B1B /* thumbnail@2x.png */; };
 		35AEE2FD22870F8900116D30 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEE2FC22870F8900116D30 /* PreferencesWindowController.swift */; };
@@ -69,7 +69,7 @@
 		2F8805DA973547418F4B0B8B /* Pods-PredatorSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredatorSandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-PredatorSandbox/Pods-PredatorSandbox.release.xcconfig"; sourceTree = "<group>"; };
 		356E4FB322835C63002FF647 /* PredatorClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorClock.swift; sourceTree = "<group>"; };
 		35854B5B228746BC00356369 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
-		35854B5E2287512300356369 /* PredatorPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorPreviewView.swift; sourceTree = "<group>"; };
+		35854B5E2287512300356369 /* PredatorPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorPreview.swift; sourceTree = "<group>"; };
 		358C9FC9228DF76C00574B1B /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		358C9FCA228DF76C00574B1B /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		35AEE2FC22870F8900116D30 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 			children = (
 				35AEE2FB22870F7A00116D30 /* Preferences */,
 				35C1531122820ADF005B24A9 /* PredatorView.swift */,
-				35854B5E2287512300356369 /* PredatorPreviewView.swift */,
+				35854B5E2287512300356369 /* PredatorPreview.swift */,
 				35C1533A22821CE2005B24A9 /* Support Files */,
 			);
 			path = Predator;
@@ -399,18 +399,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PredatorSandbox/Pods-PredatorSandbox-frameworks.sh",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+				"${PODS_ROOT}/Target Support Files/Pods-PredatorSandbox/Pods-PredatorSandbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+				"${PODS_ROOT}/Target Support Files/Pods-PredatorSandbox/Pods-PredatorSandbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,7 +487,7 @@
 				35AEE2FD22870F8900116D30 /* PreferencesWindowController.swift in Sources */,
 				35C1531222820ADF005B24A9 /* PredatorView.swift in Sources */,
 				35854B5C228746BC00356369 /* Preferences.swift in Sources */,
-				35854B5F2287512300356369 /* PredatorPreviewView.swift in Sources */,
+				35854B5F2287512300356369 /* PredatorPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,8 +20,9 @@ class MainConfiguration: Configuration {
     var reverse: Bool = false
     var twentyFourHours: Bool = true
     var twelveHours: Bool = false
+    var showSeconds: Bool = true
     var autoUpdates: Bool = false
-    var drawEmptyDigits: Bool = false
+    var drawEmptyDigits: Bool = true
 }
 
 class PredatorView: NSView {

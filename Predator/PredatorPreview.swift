@@ -15,7 +15,7 @@
 import Cocoa
 import PredatorCore
 
-final class PredatorPreviewView: NSView {
+final class PredatorPreview: NSView {
     private lazy var predator = PredatorClock(with: Preferences.shared)
     
     override func draw(_ dirtyRect: NSRect) {

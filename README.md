@@ -9,11 +9,22 @@
 
 # Predator
 
-**Predator** is a minimalistic screensaver for macOS based on predator's countdown timer. Don't worry your mac doesn't blow 😄. It is completely open source, feel free to contribute!
+**Predator** is a screensaver for macOS which is based on the predator countdown timer. Don't worry your mac doesn't blow 😄. It is completely open source, feel free to contribute!
 
 ## Compatibility
 
 Requires OS X El Capitan 10.11 and newer
+
+## Features
+
+- Support 12-hour and 24-hour clock formats
+- Hiding/showing edges for empty lines in the shape
+- Custom shape colors
+- Reverse shapes
+
+<p align="center">
+  <img src="assets/settings.png" alt="Predator Settings">
+</p>
 
 ## Installation
 
@@ -29,15 +40,6 @@ If you see an error message saying "This app is damaged and can't be opened, you
 
 **Important**: If you haven't quit System Preferences before installation and were upgrading from a previous version, I strongly recommend you quit the application after installation, then reopen it, as updated Swift screensavers aren't loaded correctly in an active System Preferences session.
 
-## Features
-
-- Support 12-h and 24-h clock 
-- Select which color you want to see
-- Reverse shapes filling
-
-<p align="center">
-  <img src="assets/settings.png" alt="Predator Settings">
-</p>
 
 ## Predator’s clock rules
 

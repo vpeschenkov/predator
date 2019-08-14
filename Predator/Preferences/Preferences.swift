@@ -64,6 +64,15 @@ final class Preferences: Configuration {
         }
     }
     
+    public var showSeconds: Bool {
+        set {
+            
+        }
+        get {
+            return true;
+        }
+    }
+    
     public var autoUpdates: Bool {
         set {
             defaults.set(newValue, forKey: Key.autoInstallUpdates)
